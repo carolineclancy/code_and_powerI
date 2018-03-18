@@ -1,0 +1,140 @@
+body{
+  margin:0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  width: 70%;
+}
+
+p{
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 25px;
+  display: inline-block;
+  font-family: 'Monaco', sans-serif;
+  color: rgb(58, 58, 58);
+}
+
+a{
+  color: rgb(51, 51, 51);
+}
+
+figcaption{
+  color: rgb(119, 119, 119);
+}
+
+input, textarea { 
+  padding: 9px; 
+  border: solid 1px #E5E5E5; 
+  outline: 0; 
+  width: 200px; 
+  background: #FFFFFF; 
+  } 
+ 
+textarea { 
+  width: 400px; 
+  max-width: 400px; 
+  height: 150px; 
+  line-height: 150%; 
+  } 
+ 
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+  border-color: #C9C9C9; 
+  } 
+ 
+ 
+.submit input { 
+  width: auto; 
+  padding: 9px 15px; 
+  background: #617798; 
+  border: 0; 
+  font-size: 14px; 
+  color: #FFFFFF; 
+}
+
+.headers {
+  size: 100px;
+}
+
+.drone_headers {
+  padding-left: 270px;
+}
+
+#about_image {
+  height: 30%;
+  width: 30%;
+}
+
+.contact_form {
+  background-color:rgb(198, 237, 255);
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+}
+/* background color to top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* links within nav bar */
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: whitesmoke;
+}
+
+
+
+/* highlights nav link of current tab */
+.active {
+    background-color:#ddd;
+    color: white;
+}
+
+/* hide links on small screens */
+.topnav .icon {
+    display: none;
+}
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + h2{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + h2{ /* (RADIO CHECKED) IMAGE STYLES */
+  font-weight:bold;
+  font-size: 45px;
+}
+
+.rating {
+  display:inline-block;
+}
+
+label{
+  display:inline-block;
+}
+
+.review {
+  background-color: grey;
+}
