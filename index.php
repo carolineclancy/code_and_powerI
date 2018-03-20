@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <title>Welcome</title>
+    <title>Home</title>
   </head>
   <body>
     <center>
