@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <title>Home</title>
+    <title>Code.org</title>
   </head>
   <body>
     <center>
@@ -27,12 +27,15 @@
       <h1> Our Review </h1>
       <h2> Code.org </h2>
   </center>
+    <p>
+    <img src="images/Code.org.png" style="float: left; width: 100%; margin-right: 10%; margin-bottom: 0.5em;">
+	</p>
+    <p style="text-align:center">Code.org is a site with interactive lessons which have the aim of making Computer Science more approachable to young kids from different backgrounds. </p>
 
-  <p> <!-- TODO: Please add a short summary about what Code.org does (i.e. features, goals etc) so that the pages are consistent  --></p>
 
     <h2 style="text-align:center">Design</h2>
     <p>
-    <img src="images/Homepage.png">
+    <img src="images/Homepage.png" style="float: left; width: 100%; margin-right: 10%; margin-bottom: 0.5em;">
 	</p>
     <p style="text-align:center">Overall, the design of Code.org is very appealing and enaging. According to me, kids of all age groups would find the site to be very engaging and easy to follow. I would personally reccomend this site to young kids who are starting to learn to code. It is colorful and you can see that throughout the site there are kids from various ethnicities and genders featured which shows just how deeply they care about promoting diversity.</p>
 
@@ -70,7 +73,7 @@
 		</p>
 
 		
-		    <h2 style="text-align:center">My Inclusivity Rating: 5</h2>
+		    <h2 style="text-align:center">Our Rating: 5</h2>
 
  <center><h1> User Reviews </h1></center>
   <?php 

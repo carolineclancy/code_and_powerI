@@ -54,7 +54,7 @@ My name is Caroline Clancy. I am a Computer Sciences Major with Mathematics and 
 <tr>
 
 <td>
-<img src="images/YOU.jpeg" alt="individual price" style="float:left;width:80%;margin-left:2%; margin-right:1%width:100px;height:500px;;"/>
+<img src="images/carley.jpg" alt="individual price" style="float:left;width:80%;margin-left:2%; margin-right:1%width:100px;height:500px;;"/>
 </td>
 
 <td>

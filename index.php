@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <title>Welcome</title>
+    <title>Home</title>
   </head>
   <body>
     <center>
@@ -15,7 +15,7 @@
           <a href="site_1.php">Tynker</a>
           <a href="site_2.php">Scratch</a>
           <a href="site_3.php">KidsCanCode</a>
-          <a href="site_4.php">ARTICLE 4</a>
+          <a href="site_4.php">code.org</a>
           <a href="about_us.php">About Us</a>
           </div>
       </nav>

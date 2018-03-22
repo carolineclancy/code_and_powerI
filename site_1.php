@@ -30,17 +30,17 @@
 
   <!--   TODO: ADD YOUR WEBSITE IMAGES HERE-->
       <p>Tynker is a site dedicated to teaching coding to kids from school and home.They have plans for individual kids to lesson plans for schools.This site is very kid-friendly and inviting for children to learn coding. </p>
-      <img src="tynker4.PNG" alt="benefits for kids" width="600" height="300" >
+      <img src="images/tynker4.PNG" alt="benefits for kids" width="600" height="300" >
       <p>Although this website seems pretty exciting and easy for kids to understand, there are some implicit things that kids might not notice. </p>
-      <img src="tynker1.PNG" alt="map" width="600" height="300">
+      <img src="images/tynker1.PNG" alt="map" width="600" height="300">
       <p>Not <b>everyone</b> has access to computers and technology and everyone might not have the money or resources that coding demands.</p>
-      <img src="tynker2.PNG" alt="individual price" style="float:left;width:45%;margin-left:2%; margin-right:1%;">
-      <img src="tynker3.PNG" alt="school price" style="float:left;width:45%;">
+      <img src="images/tynker2.PNG" alt="individual price" style="float:left;width:45%;margin-left:2%; margin-right:1%;">
+      <img src="images/tynker3.PNG" alt="school price" style="float:left;width:45%;">
       <p style="clear:both;">
   <!--TODO: MAKE SURE YOU ADD YOUR ACTUAL IMAGE(s) TO THE IMAGES FOLDER -->
    <!--<img src="images/FILENAME">-->
-    <p> <!--   TODO: ADD YOUR REVIEW OF THE WEBSITE HERE--> </p>
-  <center><h1> User Reviews </h1></center>
+     <center> <p><h1> Overall rating: 4<h1></h1></p>
+      <h1> User Reviews </h1></center>
   <?php 
 //    make sure a review has been entered
  if (isset($_POST['reviews'])):

@@ -1,14 +1,15 @@
 body{
   margin:0;
   font-family: 'Ubuntu', sans-serif;
+background-color:#89b6ff;
 }
 
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 70%;
-  width: 70%;
+ /* height: 70%;
+  width: 70%;======================remove if want constant size*/
 }
 
 p{
@@ -34,6 +35,10 @@ a{
   color: rgb(51, 51, 51);
 }
 
+figcaption{
+  color: rgb(119, 119, 119);
+}
+
 input, textarea { 
   padding: 9px; 
   border: solid 1px #E5E5E5; 
@@ -45,7 +50,7 @@ input, textarea {
 textarea { 
   width: 400px; 
   max-width: 400px; 
-  height: 150px; 
+  height: 150pchangex; 
   line-height: 150%; 
   } 
  
@@ -64,9 +69,34 @@ input:focus, textarea:focus {
   color: #FFFFFF; 
 }
 
+.headers {
+  size: 100px;
+}
+
+.drone_headers {
+  padding-left: 270px;
+}
+
+#about_image {
+  height: 30%;
+  width: 30%;
+}
+
+.contact_form {
+  background-color:rgb(198, 237, 255);
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+
+h1{
+    color:rebeccapurple;
+}
+
 /* background color to top navigation */
 .topnav {
-    background-color: white;
+    background-color:#2faf3c;
     overflow: hidden;
 }
 
@@ -84,15 +114,23 @@ input:focus, textarea:focus {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color:lightgreen;
     color: whitesmoke;
 }
 
-
+.box{
+    display:block; 
+    float: inherit;
+    border-style: dashed;
+    margin:0 3em 0 3em;
+    background-color:rebeccapurple;
+    border-color: pink; 
+    color:white; 
+}
 
 /* highlights nav link of current tab */
 .active {
-    background-color:#ddd;
+    background-color:pink;
     color: white;
 }
 
@@ -116,16 +154,16 @@ label > input:checked + h2{ /* (RADIO CHECKED) IMAGE STYLES */
 
 .rating {
   display:inline-block;
-  margin-left: -100px;
-}
+    color:rebeccapurple;
+} 
 
 label{
   display:inline-block;
 }
 
 .review {
-  background-color: #ededed;
-  margin-left: 400px;
+  background-color:lightpink;
+    margin-left: 400px;
   margin-right: 400px;
 }
 
@@ -135,11 +173,13 @@ label{
 
 h1 {
   font-size: 100px;
+    color:white;
 }
 
 h2 {
   font-size: 75px;
   line-height: 0.4;
+    color:rebeccapurple;
 }
 
 h3{
@@ -148,15 +188,20 @@ h3{
   display: inline-block;
   font-family: font-family: 'Ubuntu', sans-serif;
   line-height: 2.0;
-  color: rgb(58, 58, 58);
+  color: white;
 }
 
 .add_review{
-  background-color: whitesmoke;
+  background-color: lightgreen;
   margin-left: 400px;
   margin-right: 400px;
   text-align: left;
+    color:white
+}
 
+#scratch_images{
+  width: 300px;
+  height: 150px;
 }
 
 #toc_1 {text-align: center}

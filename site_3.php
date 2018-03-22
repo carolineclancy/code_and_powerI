@@ -34,11 +34,11 @@
 <h2 id="toc_1">Design</h2>
 
 <div id="design">
-    <img src="images/homepage.png" > 
+   <center> <img src="images/KidsCanCodeHP.png" style="width: 50%; height:50%;"> </center>
 
 <p>Simple design, less kid-friendly than Tynker or Scratch</p>    
  
-    <img src="images/white%20kid%20.png">   
+    <center><img src="images/white%20kid%20.png" style="width: 50%; height:50%;"> </center>  
 
 <p>Un-inclusive homepage gallery, one white child in focus</p>
 
@@ -48,7 +48,7 @@
 
 <h2 id="toc_2">Courses &amp; Content </h2>
 
-    <img src="images/youtube%20page.png">
+   <center><img src="images/youtube%20page.png" style="width: 50%; height:50%;"></center>
 
 <div id="Courses">
 <ul>
@@ -60,7 +60,7 @@
 <div/>
 
 <br><br/>
-    <img src="images/Limited%20availability.png"> 
+    <center><img src="images/Limited%20availability.png"> </center>
 <br><br/>
 
 <li>Limited class space, $250 tuition costs</li>
@@ -73,7 +73,7 @@
 <br><br/>
 <li>Suggested Age of 10+, but makes exceptions for "exceptional" students</li>
 <br><br/>
-    <img src="images/Special%20Programs%20Screenshot.png">
+    <center><img src="images/Special%20Programs%20Screenshot.png" style="width: 70%; height: 70%;"></center>
 <br><br/>
 <li>Coding Classes for Girls: "to remove the social pressure of gender competition"</li>
 
@@ -88,7 +88,7 @@
 <li>Created to Address underfunded public school curriculum, which often neglects CS</li>
 <li>Despite Education and Web Design backgrounds, the creators miss the mark on connecting and engaging with children, especially children of color </li>
 </ul>
-<h2>My Inclusivity Rating: 2</h2>
+<center><h2>My Inclusivity Rating: 2</h2></center>
 
 
 <br><br/>
