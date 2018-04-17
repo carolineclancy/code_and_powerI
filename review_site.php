@@ -6,15 +6,6 @@
 	$db = new SQLite3('reviews.sqlite');  
       $filename = basename($_SERVER['PHP_SELF']);
         
-<<<<<<< HEAD
-=======
-        $pageReview = [
-            "site_1.php" => 5,
-            "site_2.php" => 5,
-            "site_3.php" => 3,
-            "site_4.php" =>3 
-        ];
->>>>>>> bfb17794b61d86fcd5829846e23962fcea3715cd
         $pageNames = [
             "site_1.php" => "Tynker",
             "site_2.php" => "Scratch",
@@ -68,34 +59,6 @@
                         break;
                 }
 	
-<<<<<<< HEAD
-=======
-              //  $s = "INSERT INTO text_reviews VALUES (\"" . NULL  . "\",\"" . $filename . "\",\"" . $_POST['review'] . "\")";
-//$items = array(
-  //  array(
-    //    'id' => NULL,
-      //  'filename' => $filename,
-	//'review' => $_POST['review'],
-   // ),
-//);                
-
-//$s = "INSERT INTO text_reviews (id, filename, review) VALUES (:id, :filename, :review)";
-//$stmt = $db->prepare($s);
-//$stmt->bindParam(':id', $id);
-//$stmt->bindParam(':filename', $filename);
-//$stmt->bindParam(':review', $_POST['review']);
-
-//foreach($data as $item){
-//	$title = $item['id'];
-//	$file = $item['filename'];
-//	$rev = $item['review'];
-
-//	$stmt->execute();
-//}
-
-
-//$s = "INSERT INTO text_reviews (id, filename, review) VALUES ('".NULL."','" . $filename . "','" .$review ."');";
->>>>>>> bfb17794b61d86fcd5829846e23962fcea3715cd
 
 $s = "INSERT INTO text_reviews VALUES (" . "\"" . 1 . "\"" . ',' . "\"" . $filename . "\"" . ',' . "\"". $_POST['review']  . "\"" . ");";
 $db->exec($s);
