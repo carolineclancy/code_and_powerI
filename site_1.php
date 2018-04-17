@@ -63,38 +63,10 @@
 <!-- get review and rating from user and refresh the page to display them-->
 <div class="add_review">
 <br>
+<?php include './read_reviews.php' ?>
  <h2> Add a Review </h2>
- <div class="form">
-    <form action="site_1.php" method="post">
 <!--       user review-->
-        <div class="rating">
-            Comments: <input type="text" name="reviews[]"> <br>
-    <!-- user rating (radio button: can choose either 1, 2, 3, 4, or 5-->
-            <label>
-                <input type="radio" name="ratings[]" value="1" checked>
-                <h2> 1 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="2">
-                <h2> 2 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="3">
-                <h2> 3 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="4">
-                <h2> 4 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="5">
-                <h2> 5 </h2>
-            </label>
-        </div>
-        <br>
-        <input type="submit" value="Submit">
-      </div>
-    </form>
-    </div>
+<?php include './review_site.php'?>
+   </div>
   </body>
 </html>
