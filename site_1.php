@@ -62,6 +62,7 @@
 <!-- get review and rating from user and refresh the page to display them-->
 <div class="add_review">
 <br>
+<?php include './read_reviews.php' ?>
  <h2> Add a Review </h2>
 <!--       user review-->
 <?php include './review_site.php'?>
