@@ -17,7 +17,8 @@
           <a href="site_3.php">KidsCanCode</a>
           <a href="site_4.php">Code.org</a>
           <a href="about_us.php" class="active">About Us</a>
-          </div>
+          <a href="feedback.php">Feedback</a>  
+	</div>
       </nav>
   </center>
   <table>

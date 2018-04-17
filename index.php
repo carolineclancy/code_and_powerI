@@ -17,6 +17,7 @@
           <a href="site_3.php">KidsCanCode</a>
           <a href="site_4.php">code.org</a>
           <a href="about_us.php">About Us</a>
+	  <a href="feedback.php">Feedback</a>
           </div>
       </nav>
       <h1> LIS 500: Code and Power </h1>

@@ -22,7 +22,8 @@
           <a href="site_3.php" class="active">KidsCanCode</a>
           <a href="site_4.php">Code.org</a>
           <a href="about_us.php">About Us</a>
-          </div>
+          <a href="feedback.php">Feedback</a>  
+	</div>
       </nav>
         <h1> Our Review </h1>
         <h2> KidsCanCode </h2>
@@ -104,8 +105,6 @@
     // go through reviews and ratings and display each
         foreach($reviews as $review): ?>
                 <div class="review">
-                    <h3> <?php echo "$review"; ?> </h3> <br>
-                    <div class="site-rating">Rating: <?php echo "$ratings[$i]"; ?> </div>
                     <?php $i++; ?>
                 </div>
                 <br>
@@ -116,37 +115,7 @@
 <div class="add_review">
 <br>
  <h2> Add a Review </h2>
- <div class="form">
-    <form action="site_3.php" method="post">
-<!--       user review-->
-        <div class="rating">
-            Comments: <input type="text" name="reviews[]"> <br>
-    <!-- user rating (radio button: can choose either 1, 2, 3, 4, or 5-->
-            <label>
-                <input type="radio" name="ratings[]" value="1" checked>
-                <h2> 1 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="2">
-                <h2> 2 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="3">
-                <h2> 3 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="4">
-                <h2> 4 </h2>
-            </label>
-            <label>
-                <input type="radio" name="ratings[]" value="5">
-                <h2> 5 </h2>
-            </label>
-        </div>
-        <br>
-        <input type="submit" value="Submit">
-      </div>
-    </form>
-    </div>
+ <?php include './review_site.php'?>
+</div>
   </body>
 </html>
